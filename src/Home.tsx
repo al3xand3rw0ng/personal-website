@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const images = [
-    "/images/name01.png",
-    "/images/name02.png",
-    "/images/name03.png",
+    "./images/name01.png",
+    "./images/name02.png",
+    "./images/name03.png",
   ];
   const [image, setImage] = useState(images[0]);
   const [count, setCount] = useState(0);

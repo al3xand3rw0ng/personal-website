@@ -4,10 +4,10 @@ export default function PersonalWebsiteNavigation() {
   const { pathname } = useLocation();
 
   const links = [
-    { label: "home", path: "/home", image: "/images/home.png" },
-    { label: "about", path: "/about", image: "/images/about_me.png" },
-    { label: "projects", path: "/projects", image: "/images/projects.png" },
-    { label: "contact", path: "/contact", image: "images/contact.png" },
+    { label: "home", path: "/home", image: "./images/home.png" },
+    { label: "about", path: "/about", image: "./images/about_me.png" },
+    { label: "projects", path: "/projects", image: "./images/projects.png" },
+    { label: "contact", path: "/contact", image: "./images/contact.png" },
   ];
 
   return (
@@ -33,7 +33,7 @@ export default function PersonalWebsiteNavigation() {
           >
             <img
               className="navbar-image"
-              src={"images/github.png"}
+              src={"./images/github.png"}
               alt={"github"}
             />
           </Link>
@@ -45,7 +45,7 @@ export default function PersonalWebsiteNavigation() {
           >
             <img
               className="navbar-image"
-              src={"images/linkedin.png"}
+              src={"./images/linkedin.png"}
               alt={"linkedin"}
             />
           </Link>

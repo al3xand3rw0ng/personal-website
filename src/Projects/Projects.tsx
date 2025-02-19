@@ -79,7 +79,7 @@ export default function Projects() {
           <div className="text-center">
             <img
               className="back-button"
-              src={"images/back_button.png"}
+              src={"./images/back_button.png"}
               alt={"back"}
               onClick={handleBackClick}
             />

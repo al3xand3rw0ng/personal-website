@@ -170,7 +170,7 @@ export default function ContactMe() {
             }`}
             disabled={!firstName || !lastName || !email || !message || !topic}
           >
-            <img src="images/send.png" className="send-img" alt="send" />
+            <img src="./images/send.png" className="send-img" alt="send" />
           </button>
         </div>
       </form>
